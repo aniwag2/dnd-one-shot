@@ -67,7 +67,7 @@ A seedy and squalid metropolis—with a history in piracy, powerful crime syndic
 - House of Winds: Temple of Talos
 - Painbliss Hall: Temple of Loviatar
 - The Place of Waiting Death: Temple of Talona (subterranean)
-- House of Spires and Shadows: Temple of Mask; also called The Shadowspires.[35] Abandoned circa 1480 DR.
+- House of Spires and Shadows: Temple of Mask; also called The Shadowspires. Abandoned circa 1480 DR.
 #### Other Locations
 - Westlight: The Harbor Tower lighthouse.
 - Westgate's stout city walls had six gates. Counter-clockwise from the northernmost gate:
