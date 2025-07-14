@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  astro-app:
+    container_name: dnd-one-shot
+    # Use a pre-built image from a Docker registry instead of building locally
+    # Replace 'your-docker-username' with your actual Docker Hub username
+    image: awaghray/dnd-one-shot:latest
+    ports:
+      - "4321:4321"
+    # For a production setup, you typically don't need to mount volumes for source code
+    # as the code is already part of the image.
+    # You might still mount volumes for persistent data (e.g., databases) if applicable.
+    # Define environment variables if needed (e.g., for production builds)
+    environment:
+      - NODE_ENV=production # Set environment to production
+    # Command to run the Astro application in production mode (matches Dockerfile's CMD)
+    command: npm run preview
+    restart: always
