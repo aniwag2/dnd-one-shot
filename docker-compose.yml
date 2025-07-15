@@ -2,10 +2,10 @@ version: '3.8'
 
 services:
   astro-app:
-    container_name: astro_prod_container
+    container_name: dnd-one-shot
     # Use a pre-built image from a Docker registry instead of building locally
     # Replace 'your-docker-username' with your actual Docker Hub username
-    image: your-docker-username/my-astro-app:latest
+    image: awaghray/dnd-one-shot:latest
     ports:
       - "4321:4321"
     # For a production setup, you typically don't need to mount volumes for source code
